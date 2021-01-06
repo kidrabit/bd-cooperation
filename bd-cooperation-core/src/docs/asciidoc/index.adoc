@@ -1,0 +1,42 @@
+ifndef::snippets[]
+:snippets: /build/generated-snippets
+endif::[]
+= Search List API
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+:sectlinks:
+
+[[introduction]]
+= 소개
+
+빅데이터 협업 모듈 Spring Rest Docs API
+
+[[common]]
+== 공통사항
+
+API에 관계없이 아래 사항을 지켜주셔야 합니다.
+
+[[list]]
+= API List
+== Workspace API
+
+=== Get Incomplete Workspace
+==== Request
+CURL:
+include::{snippets}/workspace-rest-controller-tests/get-incomplete-ws/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/get-incomplete-ws/http-request.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/get-incomplete-ws/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/workspace-rest-controller-tests/get-incomplete-ws/response-fields.adoc[]
+
+

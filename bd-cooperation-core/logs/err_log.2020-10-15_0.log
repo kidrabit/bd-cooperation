@@ -1,0 +1,4 @@
+ERROR 20-10-15 16:02:50[Test worker] [SqlExceptionHelper:142] - ERROR: insert or update on table "user_auth" violates foreign key constraint "auth_code_fk"
+  Detail: Key (code_id)=(TEST) is not present in table "code".
+ERROR 20-10-15 16:03:51[Test worker] [SqlExceptionHelper:142] - ERROR: insert or update on table "user_auth" violates foreign key constraint "auth_code_fk"
+  Detail: Key (code_id)=(TEST) is not present in table "code".

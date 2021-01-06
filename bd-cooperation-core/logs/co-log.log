@@ -1,0 +1,22 @@
+ERROR 2020-10-15T14:47:01.146 package kr.co.pcninc.bigdata.cooperationmodule.api.controller null
+INFO 2020-10-15T14:47:01.147 package kr.co.pcninc.bigdata.cooperationmodule.api.controller null 워크스페이스수집 작업작업 완료
+ERROR 2020-10-15T14:53:18.604 package kr.co.pcninc.bigdata.cooperationmodule.api.controller null
+INFO 2020-10-15T14:53:18.605 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 0번 워크스페이스 수정 완료
+INFO 2020-10-15T14:54:29.792 package kr.co.pcninc.bigdata.cooperationmodule.api.controller ******테스트 데이터 셋******** 워크스페이스 생성 완료
+INFO 2020-10-15T15:18:52.727 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 119번 작업 삭제 완료
+ERROR 2020-10-15T15:29:37.505 package kr.co.pcninc.bigdata.cooperationmodule.api.controller testUser2 사용자 추가 완료
+ERROR 2020-10-15T15:38:47.362 package kr.co.pcninc.bigdata.cooperationmodule.api.controller testUser2 사용자 정보 수정 완료
+ERROR 2020-10-15T15:47:05.836 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 시각화 프로파잉일 권한 코드 정보 조회
+ERROR 2020-10-15T15:47:29.205 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 시각화 프로파잉일 권한 코드 정보 조회
+ERROR 2020-10-15T15:52:29.249 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 시각화 프로파일링 권한 정보 추가
+ERROR 2020-10-15T15:53:02.604 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 시각화 프로파일링 권한 정보 추가
+ERROR 2020-10-15T15:55:54.414 package kr.co.pcninc.bigdata.cooperationmodule.api.controller code ID : TEST 정보 수정 완료
+ERROR 2020-10-15T15:56:51.793 package kr.co.pcninc.bigdata.cooperationmodule.api.controller code ID : TEST 정보 수정 완료
+INFO 2020-11-10T16:16:30.074 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회
+INFO 2020-11-10T16:28:41.104 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회
+INFO 2020-11-10T16:29:43.005 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회
+INFO 2020-11-10T16:31:45.101 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회
+INFO 2020-11-10T16:57:23.598 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회
+INFO 2020-11-10T17:11:05.813 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회
+INFO 2020-11-10T17:12:03.056 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회
+INFO 2020-11-10T17:28:34.074 package kr.co.pcninc.bigdata.cooperationmodule.api.controller 미완료 워크스페이스 목록 조회

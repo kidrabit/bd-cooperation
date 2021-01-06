@@ -1,0 +1,315 @@
+INFO  20-11-10 16:16:16[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 21396 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 16:16:16[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 16:16:18[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 16:16:18[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 279ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 16:16:19[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 16:16:20[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 16:16:20[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 16:16:20[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 16:16:21[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 16:16:22[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 16:16:22[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 16:16:23[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 16:16:23[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 16:16:24[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 16:16:25[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@770252dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@71f44947, org.springframework.security.web.header.HeaderWriterFilter@79dc213e, org.springframework.web.filter.CorsFilter@72f32c13, org.springframework.security.web.authentication.logout.LogoutFilter@699abaa4, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@22d97d17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52281ff9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@496ce2cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25c23a2d, org.springframework.security.web.session.SessionManagementFilter@16b4cf94, org.springframework.security.web.access.ExceptionTranslationFilter@1d1e2063, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a56df1f]
+INFO  20-11-10 16:16:26[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:16:26[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 16:16:26[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 16:16:27[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:16:27[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:16:27[Test worker] [TestDispatcherServlet:547] - Completed initialization in 34 ms
+INFO  20-11-10 16:16:27[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 11.335 seconds (JVM running for 15.916)
+INFO  20-11-10 16:16:27[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:16:27[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:16:27[Test worker] [TestDispatcherServlet:547] - Completed initialization in 3 ms
+INFO  20-11-10 16:16:29[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : e6483a93-f34a-4cb6-bdf2-ad3c35bde844
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NTk3Mzg3LCJpYXQiOjE2MDQ5OTI1ODd9.AAnlbP9W7aPR4HCAddYAWeG343Y1XUju8b-OVpUH_EmlJh8S_66Q-H26JeMBus40XQ-TuVGTfI07CykKdejDaA
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 16:16:30[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:16:30[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 16:16:30[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 16:16:30[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  20-11-10 16:28:28[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 29352 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 16:28:28[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 16:28:30[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 16:28:30[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 278ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 16:28:31[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 16:28:32[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 16:28:32[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 16:28:32[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 16:28:32[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 16:28:34[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 16:28:34[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 16:28:34[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 16:28:34[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 16:28:35[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 16:28:36[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@169868b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@152d1b5e, org.springframework.security.web.header.HeaderWriterFilter@41b13bf, org.springframework.web.filter.CorsFilter@50fee3b7, org.springframework.security.web.authentication.logout.LogoutFilter@681c2d4d, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@595d5b80, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49a134cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5083cb4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4901a9ec, org.springframework.security.web.session.SessionManagementFilter@11600fa, org.springframework.security.web.access.ExceptionTranslationFilter@6d3cb36e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29451f50]
+INFO  20-11-10 16:28:37[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:28:37[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 16:28:37[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 16:28:38[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:28:38[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:28:38[Test worker] [TestDispatcherServlet:547] - Completed initialization in 27 ms
+INFO  20-11-10 16:28:38[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 10.302 seconds (JVM running for 14.567)
+INFO  20-11-10 16:28:38[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:28:38[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:28:38[Test worker] [TestDispatcherServlet:547] - Completed initialization in 5 ms
+INFO  20-11-10 16:28:40[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 8e112aa3-be16-4dd0-bfb2-7c137201136b
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NTk4MTE4LCJpYXQiOjE2MDQ5OTMzMTh9.keoiiBoU11-AFYtWXKsYc6ZCFjirFrFbrAjf4TGSd6emyoGOMXEWxsAoe7F7v0u0ltEGJ2aNVrQRYa7A5AlqUA
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 16:28:41[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:28:41[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 16:28:41[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 16:28:41[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  20-11-10 16:29:30[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 28332 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 16:29:30[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 16:29:32[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 16:29:32[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 272ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 16:29:33[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 16:29:33[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 16:29:33[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 16:29:34[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 16:29:34[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 16:29:36[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 16:29:36[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 16:29:36[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 16:29:36[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 16:29:37[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 16:29:38[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10d126f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@9cc81b5, org.springframework.security.web.header.HeaderWriterFilter@f9cac30, org.springframework.web.filter.CorsFilter@3a56df1f, org.springframework.security.web.authentication.logout.LogoutFilter@195df771, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@333947d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@152d1b5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16b4cf94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@169868b2, org.springframework.security.web.session.SessionManagementFilter@e2fd9f3, org.springframework.security.web.access.ExceptionTranslationFilter@3b7eb318, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d960dc0]
+INFO  20-11-10 16:29:39[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:29:39[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 16:29:39[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 16:29:40[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:29:40[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:29:40[Test worker] [TestDispatcherServlet:547] - Completed initialization in 34 ms
+INFO  20-11-10 16:29:40[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 10.351 seconds (JVM running for 14.263)
+INFO  20-11-10 16:29:40[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:29:40[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:29:40[Test worker] [TestDispatcherServlet:547] - Completed initialization in 8 ms
+INFO  20-11-10 16:29:42[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : bb3104da-91a8-4678-b62c-f72497c8796a
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NTk4MTgwLCJpYXQiOjE2MDQ5OTMzODB9.aiwx9CfsbRg0sJHpREAWszwwLIf0TKIEGjjhHFkq0Llg9J9jQK49lGSPrTX5J3XPhvppb3BzJ9Q37cJ8ESlDsg
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 16:29:43[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:29:43[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 16:29:43[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 16:29:43[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  20-11-10 16:31:33[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 19512 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 16:31:33[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 16:31:34[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 16:31:35[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 254ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 16:31:35[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 16:31:36[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 16:31:36[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 16:31:36[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 16:31:37[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 16:31:38[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 16:31:38[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 16:31:39[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 16:31:39[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 16:31:40[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 16:31:41[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73652f2b, org.springframework.security.web.context.SecurityContextPersistenceFilter@2620eec6, org.springframework.security.web.header.HeaderWriterFilter@e2fd9f3, org.springframework.web.filter.CorsFilter@2fd5542a, org.springframework.security.web.authentication.logout.LogoutFilter@5b2dc8ec, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@362c3bdf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b33009a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69fcd269, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67961e0e, org.springframework.security.web.session.SessionManagementFilter@516c3917, org.springframework.security.web.access.ExceptionTranslationFilter@632b21f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@485c4e31]
+INFO  20-11-10 16:31:41[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:31:42[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 16:31:42[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 16:31:42[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:31:42[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:31:42[Test worker] [TestDispatcherServlet:547] - Completed initialization in 26 ms
+INFO  20-11-10 16:31:42[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 10.28 seconds (JVM running for 14.45)
+INFO  20-11-10 16:31:43[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:31:43[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:31:43[Test worker] [TestDispatcherServlet:547] - Completed initialization in 3 ms
+INFO  20-11-10 16:31:44[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 7c9467af-ff99-4b7e-adee-4e5dc0b7d222
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NTk4MzAzLCJpYXQiOjE2MDQ5OTM1MDN9.UP_f80-mi3iH-3Y98UJvu1O2cSmdJIk4Uc9_Ri3UtZ-9qj7b2WWNkDjj4IYNtiekaN54q-oQXSO6D5ZOp-ieDw
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 16:31:45[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:31:45[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 16:31:45[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 16:31:45[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  20-11-10 16:57:09[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 29996 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 16:57:09[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 16:57:11[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 16:57:12[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 329ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 16:57:13[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 16:57:13[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 16:57:13[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 16:57:14[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 16:57:14[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 16:57:16[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 16:57:16[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 16:57:16[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 16:57:16[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 16:57:18[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 16:57:18[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40a3f4e7, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fa93341, org.springframework.security.web.header.HeaderWriterFilter@66907593, org.springframework.web.filter.CorsFilter@2c9d72b3, org.springframework.security.web.authentication.logout.LogoutFilter@5f65c21c, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@f7c03ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b5bb6a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3938562, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@790a8a7e, org.springframework.security.web.session.SessionManagementFilter@2b767987, org.springframework.security.web.access.ExceptionTranslationFilter@3cdeb7ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13a718c3]
+INFO  20-11-10 16:57:19[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:57:20[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 16:57:20[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 16:57:20[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:57:20[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:57:20[Test worker] [TestDispatcherServlet:547] - Completed initialization in 37 ms
+INFO  20-11-10 16:57:20[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 12.116 seconds (JVM running for 15.689)
+INFO  20-11-10 16:57:21[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 16:57:21[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 16:57:21[Test worker] [TestDispatcherServlet:547] - Completed initialization in 3 ms
+INFO  20-11-10 16:57:23[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : a1ac71e0-2496-41a9-ad82-4069497078ff
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NTk5ODQxLCJpYXQiOjE2MDQ5OTUwNDF9.bG7-tgXUG2FaIZXmru8Un9C0G6Vcm7UP1REHIa-cofOsqe_kDKnIBKdcUmeVYAfRbjuksstUBjioiGt4vF01fw
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 16:57:23[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 16:57:23[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 16:57:23[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 16:57:23[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  20-11-10 17:10:52[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 25144 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 17:10:52[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 17:10:54[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 17:10:54[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 283ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 17:10:55[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 17:10:55[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 17:10:56[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 17:10:56[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 17:10:56[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 17:10:58[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 17:10:58[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 17:10:58[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 17:10:58[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 17:10:59[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 17:11:00[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b8d44c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@e78e298, org.springframework.security.web.header.HeaderWriterFilter@40d3d3ee, org.springframework.web.filter.CorsFilter@24e1bba7, org.springframework.security.web.authentication.logout.LogoutFilter@19ed780f, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@95764b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5de05487, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2824742f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c408745, org.springframework.security.web.session.SessionManagementFilter@26389d09, org.springframework.security.web.access.ExceptionTranslationFilter@1bff2f98, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62087360]
+INFO  20-11-10 17:11:02[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:11:02[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 17:11:02[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 17:11:02[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 17:11:02[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 17:11:02[Test worker] [TestDispatcherServlet:547] - Completed initialization in 29 ms
+INFO  20-11-10 17:11:02[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 10.909 seconds (JVM running for 14.98)
+INFO  20-11-10 17:11:03[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 17:11:03[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 17:11:03[Test worker] [TestDispatcherServlet:547] - Completed initialization in 4 ms
+INFO  20-11-10 17:11:05[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 05703fa3-b83f-42b9-bd51-534e7e934d94
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NjAwNjYzLCJpYXQiOjE2MDQ5OTU4NjN9.wnnTxMA2fkR3F-UdnGeCDrwnkWEAd0Wh2zRDklPT8-2zyjQKYv1YDWuwI3HUGhwHxSBZ79t09SuZFEUQEcTN3Q
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 17:11:06[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:11:06[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 17:11:06[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 17:11:06[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  20-11-10 17:11:50[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 30576 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 17:11:50[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 17:11:51[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 17:11:52[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 284ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 17:11:52[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 17:11:53[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 17:11:53[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 17:11:53[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 17:11:54[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 17:11:55[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 17:11:56[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 17:11:56[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 17:11:56[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 17:11:57[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 17:11:58[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@266ec9fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fc48a62, org.springframework.security.web.header.HeaderWriterFilter@2e10088d, org.springframework.web.filter.CorsFilter@3ed829ce, org.springframework.security.web.authentication.logout.LogoutFilter@5b330679, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@62c7b423, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26389d09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e97dcac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10a9e354, org.springframework.security.web.session.SessionManagementFilter@5d2584ed, org.springframework.security.web.access.ExceptionTranslationFilter@5b40a171, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@778f3613]
+INFO  20-11-10 17:11:59[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:11:59[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 17:11:59[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 17:12:00[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 17:12:00[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 17:12:00[Test worker] [TestDispatcherServlet:547] - Completed initialization in 32 ms
+INFO  20-11-10 17:12:00[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 10.648 seconds (JVM running for 14.539)
+INFO  20-11-10 17:12:00[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 17:12:00[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 17:12:00[Test worker] [TestDispatcherServlet:547] - Completed initialization in 4 ms
+INFO  20-11-10 17:12:02[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 3239cb55-bbe7-4cf0-a8f1-357d4602f6bd
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NjAwNzIwLCJpYXQiOjE2MDQ5OTU5MjB9.C6sQjRZ4s-jnkUGDaQdul3VcA1Z_V2Y10cbcpSUSRkA-_10DnF0vFdwMxKJD_Z2rzF9ClaDZTDxTfWMn1-wN6w
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 17:12:03[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:12:03[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 17:12:03[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 17:12:03[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  20-11-10 17:28:21[Test worker] [WorkspaceRestControllerTests:55] - Starting WorkspaceRestControllerTests on DESKTOP-A6B4SP6 with PID 20452 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 17:28:21[Test worker] [WorkspaceRestControllerTests:655] - The following profiles are active: local
+INFO  20-11-10 17:28:23[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 17:28:23[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 307ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 17:28:24[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 17:28:25[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 17:28:25[Test worker] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-11-10 17:28:25[Test worker] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-11-10 17:28:25[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 17:28:27[Test worker] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-11-10 17:28:27[Test worker] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-11-10 17:28:27[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 17:28:27[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 17:28:28[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 17:28:29[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@777a9a7b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bff2f98, org.springframework.security.web.header.HeaderWriterFilter@13db7d4, org.springframework.web.filter.CorsFilter@7acdf26, org.springframework.security.web.authentication.logout.LogoutFilter@3fa0f669, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@d1122a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bf5ea50, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fc48a62, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@91d4e6e, org.springframework.security.web.session.SessionManagementFilter@4bccb241, org.springframework.security.web.access.ExceptionTranslationFilter@556183a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13393328]
+INFO  20-11-10 17:28:30[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:28:30[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 17:28:30[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 17:28:31[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 17:28:31[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 17:28:31[Test worker] [TestDispatcherServlet:547] - Completed initialization in 25 ms
+INFO  20-11-10 17:28:31[Test worker] [WorkspaceRestControllerTests:61] - Started WorkspaceRestControllerTests in 10.29 seconds (JVM running for 14.061)
+INFO  20-11-10 17:28:31[Test worker] [SpringBootMockServletContext:455] - Initializing Spring TestDispatcherServlet ''
+INFO  20-11-10 17:28:31[Test worker] [TestDispatcherServlet:525] - Initializing Servlet ''
+INFO  20-11-10 17:28:31[Test worker] [TestDispatcherServlet:547] - Completed initialization in 3 ms
+INFO  20-11-10 17:28:33[Test worker] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 04c538d2-7554-47d2-9aaf-b37d329487d3
+  URL : /api/wss/incom
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoiaG9uZy1naWxkb25nIiwiZXhwIjoxNjA1NjAxNzExLCJpYXQiOjE2MDQ5OTY5MTF9.iP_6IimdiSVtE9l15NTQ61aGNzsghj967cxPOA8YSlCa_X-DZuj1TBevkAYUA4hpws_kCeE94KInYtorx1_5cA
+  METHOD : GET
+  DATETIME : 2020-11-10
+INFO  20-11-10 17:28:34[Test worker] [SpringBootTestContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [kr.co.pcninc.bigdata.cooperationmodule.CooperationModuleApplicationTests], using SpringBootContextLoader
+INFO  20-11-10 17:28:34[Test worker] [AbstractContextLoader:264] - Could not detect default resource locations for test class [kr.co.pcninc.bigdata.cooperationmodule.CooperationModuleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO  20-11-10 17:28:34[Test worker] [AnnotationConfigContextLoaderUtils:83] - Could not detect default configuration classes for test class [kr.co.pcninc.bigdata.cooperationmodule.CooperationModuleApplicationTests]: CooperationModuleApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  20-11-10 17:28:34[Test worker] [SpringBootTestContextBootstrapper:235] - Found @SpringBootConfiguration kr.co.pcninc.bigdata.cooperationmodule.BigdataCooperationModuleApplication for test class kr.co.pcninc.bigdata.cooperationmodule.CooperationModuleApplicationTests
+INFO  20-11-10 17:28:34[Test worker] [SpringBootTestContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+INFO  20-11-10 17:28:34[Test worker] [SpringBootTestContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43678292, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5147be4d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25e1bb14, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68a0b1b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17acdd23, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7b75bc4d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5364912c, org.springframework.test.context.event.EventPublishingTestExecutionListener@3e24bffe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4f1038dc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@195172a7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ecb7d50, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@750bf438, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b13e49d]
+INFO  20-11-10 17:28:34[Test worker] [CooperationModuleApplicationTests:55] - Starting CooperationModuleApplicationTests on DESKTOP-A6B4SP6 with PID 20452 (started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core)
+INFO  20-11-10 17:28:34[Test worker] [CooperationModuleApplicationTests:655] - The following profiles are active: local
+INFO  20-11-10 17:28:34[Test worker] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-11-10 17:28:34[Test worker] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 105ms. Found 5 JPA repository interfaces.
+INFO  20-11-10 17:28:35[Test worker] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-11-10 17:28:35[Test worker] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-11-10 17:28:35[Test worker] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-11-10 17:28:35[Test worker] [HikariDataSource:110] - HikariPool-2 - Starting...
+INFO  20-11-10 17:28:35[Test worker] [HikariDataSource:123] - HikariPool-2 - Start completed.
+INFO  20-11-10 17:28:35[Test worker] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-11-10 17:28:35[Test worker] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  20-11-10 17:28:36[Test worker] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-11-10 17:28:36[Test worker] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a6f1a29, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ea23c9d, org.springframework.security.web.header.HeaderWriterFilter@513cdd8c, org.springframework.web.filter.CorsFilter@fe77eb7, org.springframework.security.web.authentication.logout.LogoutFilter@da295c, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@388e01f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3098f401, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ff8f23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@96d788b, org.springframework.security.web.session.SessionManagementFilter@308b0dfa, org.springframework.security.web.access.ExceptionTranslationFilter@11abfbeb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67a3e83c]
+INFO  20-11-10 17:28:36[Test worker] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:28:37[Test worker] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-11-10 17:28:37[Test worker] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-11-10 17:28:37[Test worker] [CooperationModuleApplicationTests:61] - Started CooperationModuleApplicationTests in 3.162 seconds (JVM running for 20.012)
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [ThreadPoolTaskExecutor:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:598] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-2 - Shutdown initiated...
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-2 - Shutdown completed.
+INFO  20-11-10 17:28:37[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.

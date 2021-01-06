@@ -1,0 +1,553 @@
+ifndef::snippets[]
+:snippets: /build/generated-snippets
+endif::[]
+= Search List API
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+:sectlinks:
+
+[[introduction]]
+= 소개
+
+빅데이터 협업 모듈 Spring Rest Docs API
+
+[[common]]
+== 공통사항
+
+API에 관계없이 아래 사항을 지켜주셔야 합니다.
+
+[[list]]
+= API List
+== Workspace API
+
+=== Create Workspace
+==== Request
+
+CURL:
+
+include::{snippets}/workspace-rest-controller-tests/create-ws-test/curl-request.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/workspace-rest-controller-tests/create-ws-test/http-request.adoc[]
+
+Request Fields:
+
+include::{snippets}/workspace-rest-controller-tests/create-ws-test/request-fields.adoc[]
+
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/create-ws-test/http-response.adoc[]
+
+
+
+=== Get Workspaces List
+==== Request
+
+
+CURL:
+include::{snippets}/workspace-rest-controller-tests/get-ws-list-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/get-ws-list-test/http-request.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/get-ws-list-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/workspace-rest-controller-tests/get-ws-list-test/response-fields.adoc[]
+
+
+
+=== Get Workspace
+==== Path Parameters
+
+include::{snippets}/workspace-rest-controller-tests/get-ws-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/workspace-rest-controller-tests/get-ws-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/get-ws-test/http-request.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/get-ws-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/workspace-rest-controller-tests/get-ws-test/response-fields.adoc[]
+
+
+
+
+=== Update Workspace Info
+
+==== Path Parameters
+include::{snippets}/workspace-rest-controller-tests/update-ws-info-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/workspace-rest-controller-tests/update-ws-info-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/update-ws-info-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/workspace-rest-controller-tests/update-ws-info-test/request-fields.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/update-ws-info-test/http-response.adoc[]
+
+
+
+
+=== Update Workspace Work Status
+
+==== Path Parameters
+include::{snippets}/workspace-rest-controller-tests/update-ws-status-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/workspace-rest-controller-tests/update-ws-status-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/update-ws-status-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/workspace-rest-controller-tests/update-ws-status-test/request-fields.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/update-ws-status-test/http-response.adoc[]
+
+
+
+
+=== Update Workspace Lock Status
+
+==== Path Parameters
+include::{snippets}/workspace-rest-controller-tests/update-ws-lock-stat-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/workspace-rest-controller-tests/update-ws-lock-stat-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/update-ws-lock-stat-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/workspace-rest-controller-tests/update-ws-lock-stat-test/request-fields.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/update-ws-lock-stat-test/http-response.adoc[]
+
+
+
+=== Delete Workspace
+
+==== Path Parameters
+include::{snippets}/workspace-rest-controller-tests/delete-ws-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/workspace-rest-controller-tests/delete-ws-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/delete-ws-test/http-request.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/workspace-rest-controller-tests/delete-ws-test/http-response.adoc[]
+
+
+
+
+== Work API
+
+=== Create Work
+==== Request
+CURL:
+
+include::{snippets}/work-rest-controller-tests/create-work-test/curl-request.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/work-rest-controller-tests/create-work-test/http-request.adoc[]
+
+Request Fields:
+
+include::{snippets}/work-rest-controller-tests/create-work-test/request-fields.adoc[]
+
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/work-rest-controller-tests/create-work-test/http-response.adoc[]
+
+
+
+=== Get Works List
+==== Request
+CURL:
+include::{snippets}/work-rest-controller-tests/get-work-list-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/work-rest-controller-tests/get-work-list-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/work-rest-controller-tests/get-work-list-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/work-rest-controller-tests/get-work-list-test/response-fields.adoc[]
+
+
+
+=== Get Work(By Workspace Id)
+==== Path Parameters
+include::{snippets}/work-rest-controller-tests/get-work-by-ws-id-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/work-rest-controller-tests/get-work-by-ws-id-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/work-rest-controller-tests/get-work-by-ws-id-test/http-request.adoc[]
+
+==== Response
+
+Response HTTP Example:
+include::{snippets}/work-rest-controller-tests/get-work-by-ws-id-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/work-rest-controller-tests/get-work-by-ws-id-test/response-fields.adoc[]
+
+
+
+=== Get Work(By Id)
+==== Path Parameters
+include::{snippets}/work-rest-controller-tests/get-work-by-id-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/work-rest-controller-tests/get-work-by-id-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/work-rest-controller-tests/get-work-by-id-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/work-rest-controller-tests/get-work-by-id-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/work-rest-controller-tests/get-work-by-id-test/response-fields.adoc[]
+
+
+
+=== Update Work Status
+==== Request
+CURL:
+include::{snippets}/work-rest-controller-tests/update-work-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/work-rest-controller-tests/update-work-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/work-rest-controller-tests/update-work-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/work-rest-controller-tests/update-work-test/http-response.adoc[]
+
+
+
+=== Delete Work
+==== Path Parameters
+include::{snippets}/work-rest-controller-tests/delete-work-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/work-rest-controller-tests/delete-work-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/work-rest-controller-tests/delete-work-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/work-rest-controller-tests/delete-work-test/http-response.adoc[]
+
+
+
+== User API
+=== Create User
+==== Request
+CURL:
+include::{snippets}/user-rest-controller-tests/create-user-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-rest-controller-tests/create-user-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/user-rest-controller-tests/create-user-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-rest-controller-tests/create-user-test/http-response.adoc[]
+
+
+
+=== Get Users List
+==== Request
+CURL:
+include::{snippets}/user-rest-controller-tests/get-user-list-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-rest-controller-tests/get-user-list-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-rest-controller-tests/get-user-list-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/user-rest-controller-tests/get-user-list-test/response-fields.adoc[]
+
+
+
+=== Get User
+==== Path Parameters
+include::{snippets}/user-rest-controller-tests/get-user-by-id-test/path-parameters.adoc[]
+==== Request
+CURL:
+include::{snippets}/user-rest-controller-tests/get-user-by-id-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-rest-controller-tests/get-user-by-id-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-rest-controller-tests/get-user-by-id-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/user-rest-controller-tests/get-user-by-id-test/response-fields.adoc[]
+
+
+=== Update User
+==== Path Parameters
+include::{snippets}/user-rest-controller-tests/update-user-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/user-rest-controller-tests/update-user-test/curl-request.adoc[]
+
+Request HTTp Example:
+include::{snippets}/user-rest-controller-tests/update-user-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/user-rest-controller-tests/update-user-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-rest-controller-tests/update-user-test/http-response.adoc[]
+
+
+
+=== Delete User
+==== Path Parameters
+include::{snippets}/user-rest-controller-tests/delete-user-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/user-rest-controller-tests/delete-user-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-rest-controller-tests/delete-user-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-rest-controller-tests/delete-user-test/http-response.adoc[]
+
+
+
+== Code API
+=== Create Code
+==== Request
+CURL:
+include::{snippets}/code-rest-controller-tests/create-code-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/code-rest-controller-tests/create-code-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/code-rest-controller-tests/create-code-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/code-rest-controller-tests/create-code-test/http-response.adoc[]
+
+
+=== Get Code List
+==== Request
+CURL:
+include::{snippets}/code-rest-controller-tests/get-code-list-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/code-rest-controller-tests/get-code-list-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/code-rest-controller-tests/get-code-list-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/code-rest-controller-tests/get-code-list-test/response-fields.adoc[]
+
+
+=== Get Code
+==== Path Parameters
+include::{snippets}/code-rest-controller-tests/get-code-test/path-parameters.adoc[]
+==== Request
+CURL:
+include::{snippets}/code-rest-controller-tests/get-code-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/code-rest-controller-tests/get-code-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/code-rest-controller-tests/get-code-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/code-rest-controller-tests/get-code-test/response-fields.adoc[]
+
+
+=== Update Code
+==== Path Parameters
+include::{snippets}/code-rest-controller-tests/update-code-test/path-parameters.adoc[]
+==== Request
+CURL:
+include::{snippets}/code-rest-controller-tests/update-code-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/code-rest-controller-tests/update-code-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/code-rest-controller-tests/update-code-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/code-rest-controller-tests/update-code-test/http-response.adoc[]
+
+
+=== Delete Code
+==== Path Parameters
+include::{snippets}/code-rest-controller-tests/delete-code-test/path-parameters.adoc[]
+
+==== Request
+CURL:
+include::{snippets}/code-rest-controller-tests/delete-code-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/code-rest-controller-tests/delete-code-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/code-rest-controller-tests/delete-code-test/http-response.adoc[]
+
+
+== User Auth API
+=== Create User Auth
+==== Request
+CURL:
+include::{snippets}/user-auth-rest-controller-tests/create-user-auth-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/create-user-auth-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/user-auth-rest-controller-tests/create-user-auth-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/create-user-auth-test/http-response.adoc[]
+
+
+=== Get User Auth List
+==== Request
+CURL:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-list-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-list-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-list-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-list-test/response-fields.adoc[]
+
+
+=== Get User Auth
+==== Path Parameters
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-test/path-parameters.adoc[]
+==== Request
+CURL:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-test/http-request.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-test/http-response.adoc[]
+
+Response Fields:
+include::{snippets}/user-auth-rest-controller-tests/get-user-auth-test/response-fields.adoc[]
+
+
+=== Update User Auth
+==== Path Parameters
+include::{snippets}/user-auth-rest-controller-tests/update-user-auth-test/path-parameters.adoc[]
+==== Request
+CURL:
+include::{snippets}/user-auth-rest-controller-tests/update-user-auth-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/update-user-auth-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/user-auth-rest-controller-tests/update-user-auth-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/update-user-auth-test/http-response.adoc[]
+
+
+=== Delete User Auth
+==== Request
+CURL:
+include::{snippets}/user-auth-rest-controller-tests/delete-user-auth-test/curl-request.adoc[]
+
+Request HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/delete-user-auth-test/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/user-auth-rest-controller-tests/delete-user-auth-test/request-fields.adoc[]
+
+==== Response
+Response HTTP Example:
+include::{snippets}/user-auth-rest-controller-tests/delete-user-auth-test/http-response.adoc[]
