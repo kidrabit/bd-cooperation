@@ -1,0 +1,350 @@
+INFO  20-12-09 08:09:20[main] [BigdataCooperationModuleApplication:55] - Starting BigdataCooperationModuleApplication on DESKTOP-A6B4SP6 with PID 22216 (C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core\build\classes\java\main started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module)
+INFO  20-12-09 08:09:20[main] [BigdataCooperationModuleApplication:655] - The following profiles are active: local
+INFO  20-12-09 08:09:22[main] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-12-09 08:09:22[main] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 234ms. Found 5 JPA repository interfaces.
+INFO  20-12-09 08:09:23[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-12-09 08:09:24[main] [TomcatWebServer:92] - Tomcat initialized with port(s): 8089 (http)
+INFO  20-12-09 08:09:24[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8089"]
+INFO  20-12-09 08:09:24[main] [StandardService:173] - Starting service [Tomcat]
+INFO  20-12-09 08:09:24[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+INFO  20-12-09 08:09:24[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  20-12-09 08:09:24[main] [ContextLoader:284] - Root WebApplicationContext: initialization completed in 3284 ms
+WARN  20-12-09 08:09:24[main] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-12-09 08:09:24[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-12-09 08:09:24[main] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-12-09 08:09:25[main] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-12-09 08:09:25[main] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-12-09 08:09:26[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-12-09 08:09:26[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-12-09 08:09:27[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-12-09 08:09:27[main] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-12-09 08:09:28[main] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@782fd504, org.springframework.security.web.context.SecurityContextPersistenceFilter@42d9e8d2, org.springframework.security.web.header.HeaderWriterFilter@53a301f3, org.springframework.web.filter.CorsFilter@1537c744, org.springframework.security.web.authentication.logout.LogoutFilter@5ba1b62e, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@19da993b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@582a3b19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b46392c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37314843, org.springframework.security.web.session.SessionManagementFilter@3404e5c4, org.springframework.security.web.access.ExceptionTranslationFilter@6dae70f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e03046d]
+INFO  20-12-09 08:09:28[main] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-12-09 08:09:28[main] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-12-09 08:09:28[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-12-09 08:09:28[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8089"]
+INFO  20-12-09 08:09:28[main] [TomcatWebServer:204] - Tomcat started on port(s): 8089 (http) with context path ''
+INFO  20-12-09 08:09:28[main] [BigdataCooperationModuleApplication:61] - Started BigdataCooperationModuleApplication in 8.609 seconds (JVM running for 12.049)
+INFO  20-12-09 12:59:02[http-nio-8089-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  20-12-09 12:59:02[http-nio-8089-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  20-12-09 12:59:02[http-nio-8089-exec-1] [DispatcherServlet:547] - Completed initialization in 31 ms
+ERROR 20-12-09 12:59:03[http-nio-8089-exec-1] [JwtTokenProvider:91] - JWT claims string is empty.
+INFO  20-12-09 12:59:03[http-nio-8089-exec-1] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 4bcd40bb-e97d-4431-84d9-8f08eed3231f
+  URL : /api/auth/login
+  PARAMETER : null
+  TOKEN : Bearer
+  METHOD : POST
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:03[http-nio-8089-exec-1] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [pcn]
+TRACE 20-12-09 12:59:03[http-nio-8089-exec-1] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [pcn]
+INFO  20-12-09 12:59:05[http-nio-8089-exec-4] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 610eda31-10b7-4855-b61c-668a8b8d0ae6
+  URL : /api/wss
+  PARAMETER : size=10&sort=wsId&page=NaN
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:05[http-nio-8089-exec-5] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 63aab474-d1da-4d0d-9401-5187365839ba
+  URL : /api/wss
+  PARAMETER : size=10&sort=wsId&page=-1
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [hong-gildong]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [hong-gildong]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-6] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : d5743c9f-f2ff-4f0a-9f2c-31c519f43525
+  URL : /api/wss/111/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-9] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : e4a25959-2ce8-481d-b424-468e664c48b3
+  URL : /api/wss/112/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-1] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : c8582bfb-1219-43f8-8f24-dac367b68702
+  URL : /api/wss/113/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-7] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 893fec5c-4013-4af1-897c-dae45b7ac1df
+  URL : /api/wss/110/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-2] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : ac472f11-1dc0-4c3d-8189-f98da1eb7e34
+  URL : /api/wss/110/lock
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : PUT
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-3] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : f617aab3-4387-4cdb-8921-715f1c086880
+  URL : /api/wss/123/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [110]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-7] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [110]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-3] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [123]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-9] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [112]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-1] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [113]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [111]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [digitalship]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-8] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 04d3b7c9-1765-4713-85d9-12e53e57e0c1
+  URL : /api/wss/log
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-4] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 56798e2c-7dd4-4e2e-b493-c7e327cdd346
+  URL : /api/wss/111/lock
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : PUT
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-6] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : dd660daf-ad13-4e31-b16a-04c311013990
+  URL : /api/wss/113/lock
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : PUT
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [111]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [113]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-5] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 105f1702-5ca4-41a6-94a2-551bacb8396a
+  URL : /api/wss/123/lock
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : PUT
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-10] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : b3c9e439-250e-46a9-97c3-df116691f459
+  URL : /api/wss/112/lock
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : PUT
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [123]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [112]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-8] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 4008e202-debc-4d00-b7fe-11dba801b0d3
+  URL : /api/wss
+  PARAMETER : size=10&sort=wsId&page=0
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-8] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [hong-gildong]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-9] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 9b56bab1-c853-4f09-97ae-72c54ca838ff
+  URL : /api/wss/123/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-9] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [123]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-7] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 8370fbc2-2b51-4df5-9a4f-9aa785083c2d
+  URL : /api/wss/112/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-7] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [112]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-1] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : c5810bd5-954b-42ee-ac3e-7257e84089ac
+  URL : /api/wss/110/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-1] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [110]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:52] - binding parameter [1] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [전처리 작업]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:52] - binding parameter [1] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:52] - binding parameter [2] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [2] as [VARCHAR] - [전처리 작업 완료]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [시각화 프로파일링]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:52] - binding parameter [1] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:52] - binding parameter [2] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [2] as [VARCHAR] - [시각화 프로파일링 완료]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:52] - binding parameter [3] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:52] - binding parameter [3] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:52] - binding parameter [4] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:52] - binding parameter [4] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [5] as [VARCHAR] - [0]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:52] - binding parameter [3] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:52] - binding parameter [2] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:52] - binding parameter [4] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [3] as [VARCHAR] - [hong-gildong]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [5] as [VARCHAR] - [50]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [5] as [VARCHAR] - [0]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [6] as [CHAR] - [N]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-3] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 6d347913-66fa-41d7-9863-a40ca344f16e
+  URL : /api/wss/113/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [6] as [CHAR] - [N]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [6] as [CHAR] - [N]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:52] - binding parameter [3] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [7] as [VARCHAR] - [2020-09-29 17:54:10]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [7] as [VARCHAR] - [2020-12-01 15:22:54]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:52] - binding parameter [4] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:52] - binding parameter [4] as [VARCHAR] - [null]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [8] as [VARCHAR] - [날씨 데이터셋 workspace]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [8] as [VARCHAR] - [제조업 데이터셋 입니다.]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-3] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [113]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [5] as [VARCHAR] - [0]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [7] as [VARCHAR] - [2020-09-29 17:54:39]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [9] as [VARCHAR] - [2020-12-09 12:59:06]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [9] as [VARCHAR] - [2020-12-09 12:59:06]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [6] as [CHAR] - [N]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [8] as [VARCHAR] - [제조업 데이터셋입니다.]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [10] as [VARCHAR] - [날씨 데이터셋]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [10] as [VARCHAR] - [제조업 데이터셋]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [9] as [VARCHAR] - [2020-12-09 12:59:06]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [5] as [VARCHAR] - [100]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [11] as [INTEGER] - [111]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-5] [BasicBinder:64] - binding parameter [11] as [INTEGER] - [123]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [10] as [VARCHAR] - [제조업 데이터셋2]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [6] as [CHAR] - [N]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [7] as [VARCHAR] - [2020-09-29 17:54:21]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [11] as [INTEGER] - [113]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [7] as [VARCHAR] - [2020-09-29 17:51:46]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [8] as [VARCHAR] - []
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [9] as [VARCHAR] - [2020-12-09 12:59:06]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [8] as [VARCHAR] - [의료 데이터셋입니다.]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [9] as [VARCHAR] - [2020-12-09 12:59:06]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [10] as [VARCHAR] - [새 워크스페이스]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-10] [BasicBinder:64] - binding parameter [11] as [INTEGER] - [112]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [10] as [VARCHAR] - [의료 데이터셋]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [11] as [INTEGER] - [110]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-8] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 88d9ba9c-3aa7-48fa-ab3d-0fd9581dee28
+  URL : /api/wss/111/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-8] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [111]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-8] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [digitalship]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-9] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 27eea76b-d7ba-4ba3-a184-088d6dc9887d
+  URL : /api/wss/log
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-1] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : fa2c4fd4-b5ff-41c0-b6f0-1edd0b22d0ea
+  URL : /api/wss/111/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-7] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 51a8f34d-fe3b-45ee-b633-dc3220851f25
+  URL : /api/wss/110/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-4] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : bcc00cf7-6be1-4f76-9990-dc4ac7ba9ad3
+  URL : /api/wss/113/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-3] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : e0d6df30-a7ef-435f-b2c6-f7e9d8a87c47
+  URL : /api/wss/112/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-7] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [110]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-1] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [111]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-4] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [113]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-3] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [112]
+INFO  20-12-09 12:59:06[http-nio-8089-exec-6] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 816d82fe-6782-467e-a716-4bea11bc8d52
+  URL : /api/wss/123/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:06[http-nio-8089-exec-2] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : b5ad63a9-679b-4c89-a36a-df256b273b36
+  URL : /api/wss/log
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-1] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [digitalship]
+TRACE 20-12-09 12:59:06[http-nio-8089-exec-6] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [123]
+INFO  20-12-09 12:59:08[http-nio-8089-exec-9] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : dc209372-7661-48da-93d5-5e55fabb7a3e
+  URL : /api/wss/110/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:08[http-nio-8089-exec-7] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 5dcf0b15-eb91-4e9c-a1d4-273485b530cc
+  URL : /api/wss/110
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:08[http-nio-8089-exec-8] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 2e4e97d7-49d0-4408-9584-75965412ed34
+  URL : /api/auth/current
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:08[http-nio-8089-exec-9] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [110]
+TRACE 20-12-09 12:59:08[http-nio-8089-exec-7] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [110]
+TRACE 20-12-09 12:59:08[http-nio-8089-exec-8] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [pcn]
+INFO  20-12-09 12:59:08[http-nio-8089-exec-4] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 548e59e9-7a50-4de6-b579-25de2ad7642c
+  URL : /api/wss/log
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:08[http-nio-8089-exec-3] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : f512e4bb-0c40-49df-b511-e0cb5744305e
+  URL : /api/wss/log
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+INFO  20-12-09 12:59:12[http-nio-8089-exec-2] [RequestTraceInterceptor:37] - REQUEST : 
+  TRACE ID : 87124731-b0b9-4ec0-bef4-15d8ede09f66
+  URL : /api/wss/111/works
+  PARAMETER : null
+  TOKEN : Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W10sImlkIjoicGNuIiwiZXhwIjoxNjA4MDkxMTQzLCJpYXQiOjE2MDc0ODYzNDN9.2kYLBJDCqbgIFbbeXYoo3cKz8z6Y4cMOpJKTdP4Av5LjMFr0Z0hDSWSs__ICmbP4Ur8RADpezC6ae8zW5OddoA
+  METHOD : GET
+  DATETIME : 2020-12-09
+TRACE 20-12-09 12:59:12[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [1] as [INTEGER] - [111]
+TRACE 20-12-09 12:59:12[http-nio-8089-exec-2] [BasicBinder:64] - binding parameter [1] as [VARCHAR] - [digitalship]

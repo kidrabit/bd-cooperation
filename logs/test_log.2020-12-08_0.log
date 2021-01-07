@@ -1,0 +1,27 @@
+INFO  20-12-08 08:23:26[main] [BigdataCooperationModuleApplication:55] - Starting BigdataCooperationModuleApplication on DESKTOP-A6B4SP6 with PID 9884 (C:\Users\pcn\IntellijProjects\bigdata-cooperation-module\bd-cooperation-core\build\classes\java\main started by pcn in C:\Users\pcn\IntellijProjects\bigdata-cooperation-module)
+INFO  20-12-08 08:23:26[main] [BigdataCooperationModuleApplication:655] - The following profiles are active: local
+INFO  20-12-08 08:23:28[main] [RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  20-12-08 08:23:29[main] [RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 332ms. Found 5 JPA repository interfaces.
+INFO  20-12-08 08:23:30[main] [PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  20-12-08 08:23:30[main] [TomcatWebServer:92] - Tomcat initialized with port(s): 8089 (http)
+INFO  20-12-08 08:23:30[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8089"]
+INFO  20-12-08 08:23:30[main] [StandardService:173] - Starting service [Tomcat]
+INFO  20-12-08 08:23:30[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+INFO  20-12-08 08:23:31[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  20-12-08 08:23:31[main] [ContextLoader:284] - Root WebApplicationContext: initialization completed in 4427 ms
+WARN  20-12-08 08:23:31[main] [JpaBaseConfiguration$JpaWebConfiguration:220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  20-12-08 08:23:31[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  20-12-08 08:23:32[main] [Version:46] - HHH000412: Hibernate Core {5.4.10.Final}
+INFO  20-12-08 08:23:32[main] [Version:49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  20-12-08 08:23:33[main] [Dialect:172] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  20-12-08 08:23:35[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  20-12-08 08:23:35[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  20-12-08 08:23:36[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  20-12-08 08:23:36[main] [LocalContainerEntityManagerFactoryBean:416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  20-12-08 08:23:37[main] [DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f04993d, org.springframework.security.web.context.SecurityContextPersistenceFilter@489110c2, org.springframework.security.web.header.HeaderWriterFilter@10ed037a, org.springframework.web.filter.CorsFilter@333398f, org.springframework.security.web.authentication.logout.LogoutFilter@3b57dba4, kr.co.pcninc.bigdata.cooperationmodule.configuration.authorization.JwtAuthenticationFilter@3c25cfe1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ac5b4c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fb5ad40, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@103c97ff, org.springframework.security.web.session.SessionManagementFilter@3cc9632d, org.springframework.security.web.access.ExceptionTranslationFilter@3be3e76c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@795b66d]
+INFO  20-12-08 08:23:38[main] [ThreadPoolTaskExecutor:171] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  20-12-08 08:23:38[main] [WebConfiguration:20] - RequestTraceInterceptor 인터셉터가 등록 되었습니다
+INFO  20-12-08 08:23:38[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  20-12-08 08:23:38[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8089"]
+INFO  20-12-08 08:23:38[main] [TomcatWebServer:204] - Tomcat started on port(s): 8089 (http) with context path ''
+INFO  20-12-08 08:23:38[main] [BigdataCooperationModuleApplication:61] - Started BigdataCooperationModuleApplication in 12.85 seconds (JVM running for 17.664)
