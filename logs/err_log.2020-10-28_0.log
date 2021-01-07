@@ -1,0 +1,27 @@
+ERROR 20-10-28 09:38:04[http-nio-8089-exec-1] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 09:50:18[http-nio-8089-exec-7] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 09:50:18[http-nio-8089-exec-7] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 09:50:18[http-nio-8089-exec-6] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 09:50:18[http-nio-8089-exec-6] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:10:22[http-nio-8089-exec-2] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:10:22[http-nio-8089-exec-2] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:10:22[http-nio-8089-exec-6] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:10:22[http-nio-8089-exec-6] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:12:05[http-nio-8089-exec-1] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:12:05[http-nio-8089-exec-1] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:12:05[http-nio-8089-exec-2] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:12:05[http-nio-8089-exec-2] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:12:25[http-nio-8089-exec-2] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:12:25[http-nio-8089-exec-2] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:12:25[http-nio-8089-exec-4] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:12:25[http-nio-8089-exec-4] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:12:55[http-nio-8089-exec-7] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:12:55[http-nio-8089-exec-7] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:13:03[http-nio-8089-exec-5] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:13:03[http-nio-8089-exec-5] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:13:03[http-nio-8089-exec-8] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:13:03[http-nio-8089-exec-8] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:15:23[http-nio-8089-exec-10] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:15:23[http-nio-8089-exec-10] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource
+ERROR 20-10-28 15:15:23[http-nio-8089-exec-1] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-10-28 15:15:23[http-nio-8089-exec-1] [JwtAuthenticationEntryPoint:27] - Responding with unauthorized error. Message - Full authentication is required to access this resource

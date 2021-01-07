@@ -1,0 +1,15 @@
+ERROR 20-11-30 08:26:51[http-nio-8089-exec-1] [JwtTokenProvider:91] - JWT claims string is empty.
+ERROR 20-11-30 14:30:50[main] [LoggingFailureAnalysisReporter:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8089 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8089 or configure this application to listen on another port.
+
