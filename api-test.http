@@ -1,0 +1,26 @@
+POST http://localhost:8080/api/v1/search/multi
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTYwMjcyMjQ4OCwiZXhwIjoxNjAzMzI3Mjg4fQ.abQN9ApkqqJXYoh5S8c6Yj2X3ZwWtaY6vQuLNYQ_6R94pgIYpEyOfwHQliERazEqpFLc_B41bQ3nMJsfvQXbuw
+Content-Type: application/json
+
+{"group":[{"index":"medicineinfo","exactly":"MATCHALL","paging":{"page":1,"rows":3,"sort":"score","sortOrder":"DESC","default":true,"from":0},"keyword":["아로나민"],"exceptedKeyword":null,"fields":[]},{"index":"eventinfo","exactly":"MATCHALL","paging":{"page":1,"rows":3,"sort":"score","sortOrder":"DESC","default":true,"from":0},"keyword":["아로나민"],"exceptedKeyword":null,"fields":[]}]}
+
+###
+POST http://localhost:8080/api/v1/lawterm/documents
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTYwMjcyMjQ4OCwiZXhwIjoxNjAzMzI3Mjg4fQ.abQN9ApkqqJXYoh5S8c6Yj2X3ZwWtaY6vQuLNYQ_6R94pgIYpEyOfwHQliERazEqpFLc_B41bQ3nMJsfvQXbuw
+Content-Type: application/json
+
+{"document":{"subject":"테","name":"트","content":"스"}}
+
+###
+GET http://localhost:8080/api/v1/search?index=_all&keyword=아로나민&exceptedKeyword=라비에트&fields=name&paging.sort=score&paging.page=1&paging.rows=10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTYwMjcyMjQ4OCwiZXhwIjoxNjAzMzI3Mjg4fQ.abQN9ApkqqJXYoh5S8c6Yj2X3ZwWtaY6vQuLNYQ_6R94pgIYpEyOfwHQliERazEqpFLc_B41bQ3nMJsfvQXbuw
+Content-Type: application/json
+
+###
+GET http://localhost:8080/api/v1/search/detail?index=lawterm&musts=term+description%25%3D%ED%95%A9%EB%B3%91&paging.page=1&paging.rows=10&paging.sort=score&paging.sortOrder=DESC
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTYwMjcyMjQ4OCwiZXhwIjoxNjAzMzI3Mjg4fQ.abQN9ApkqqJXYoh5S8c6Yj2X3ZwWtaY6vQuLNYQ_6R94pgIYpEyOfwHQliERazEqpFLc_B41bQ3nMJsfvQXbuw
+Content-Type: application/json
+###
+
+
+###
